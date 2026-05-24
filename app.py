@@ -779,7 +779,7 @@ Com a previsão antecipada, o zoo pode:
     st.markdown("""
     <div class="footer">
         Zoológico de Korkeasaari · Helsinki · Dados: Helsinki Region Infoshare (CC-BY 4.0)<br>
-        Sprint 4 — Machine Learning · 1TIAPR-2025 · Grupo: Rafael Tavares, Gabriel Muniz, Yuri Quirino, Leonardo Barros, Marcelo Augusto
+        Sprint 4 — Machine Learning · 1TIAPR-2026 · Grupo: Rafael Tavares, Gabriel Muniz, Yuri Quirino, Leonardo Barros, Marcelo Augusto
     </div>
     """, unsafe_allow_html=True)
 
