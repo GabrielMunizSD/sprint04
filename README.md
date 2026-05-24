@@ -1,4 +1,4 @@
-# 🦁 Zoo Predictor — Korkeasaari · Sprint 4
+#  Zoo Predictor — Korkeasaari · Sprint 4
 
 **Machine Learning · 1TIAPR-2025**  
 Grupo: Rafael Tavares (567357) · Gabriel Muniz (568237) · Yuri Quirino (568512) · Leonardo Barros (566788) · Marcelo Augusto (567176)
@@ -9,11 +9,11 @@ Grupo: Rafael Tavares (567357) · Gabriel Muniz (568237) · Yuri Quirino (568512
 
 Aplicação Streamlit que transforma o modelo de previsão de visitantes do Zoológico de Korkeasaari (Helsinki) em um **produto de dados funcional**, com:
 
-- 🔮 **Previsão de visitantes** para qualquer data futura
-- 📊 **Classificação de demanda** (Alta / Média / Baixa)  
-- 💡 **Explicabilidade SHAP** — por que o modelo previu esse valor?
-- 💼 **Recomendações operacionais** para gestores de totens e equipes
-- ⚠️ **Avaliação crítica** do modelo (limitações, riscos, melhorias)
+-  **Previsão de visitantes** para qualquer data futura
+-  **Classificação de demanda** (Alta / Média / Baixa)  
+-  **Explicabilidade SHAP** — por que o modelo previu esse valor?
+-  **Recomendações operacionais** para gestores de totens e equipes
+-  **Avaliação crítica** do modelo (limitações, riscos, melhorias)
 
 ---
 
@@ -71,10 +71,10 @@ README.md               ← Este arquivo
 
 | Aba | Conteúdo |
 |-----|----------|
-| 🔮 Previsão & Explicação | Input de data + lags → Previsão + SHAP waterfall + Recomendações |
-| 📊 Explorar Dados | Sazonalidade mensal/semanal, série histórica, importância global SHAP |
-| 🤖 Sobre o Modelo | Pipeline, features, métricas holdout, estratégia de validação |
-| 💼 Uso Prático & Limitações | Benefícios para o totem, decisões suportadas, limitações, melhorias |
+|  Previsão & Explicação | Input de data + lags → Previsão + SHAP waterfall + Recomendações |
+|  Explorar Dados | Sazonalidade mensal/semanal, série histórica, importância global SHAP |
+|  Sobre o Modelo | Pipeline, features, métricas holdout, estratégia de validação |
+|  Uso Prático & Limitações | Benefícios para o totem, decisões suportadas, limitações, melhorias |
 
 ---
 
@@ -113,18 +113,18 @@ Exemplo de saída:
 
 | Cenário | Ação |
 |---------|------|
-| 🔴 Demanda ALTA (≥ 1.500) | Escala máxima, todas as unidades ativas, pré-venda digital |
-| 🟡 Demanda MÉDIA (700–1.499) | Escala padrão, monitoramento em tempo real |
-| 🟢 Demanda BAIXA (< 700) | Manutenção preventiva, campanhas de captação |
+|  Demanda ALTA (≥ 1.500) | Escala máxima, todas as unidades ativas, pré-venda digital |
+|  Demanda MÉDIA (700–1.499) | Escala padrão, monitoramento em tempo real |
+|  Demanda BAIXA (< 700) | Manutenção preventiva, campanhas de captação |
 
 ---
 
 ## Limitações Reconhecidas
 
-- ❌ Sem dados de clima (temperatura, chuva, neve)
-- ❌ Sem modelagem de eventos especiais (campanhas, exposições)
-- ❌ Anos 2020-2021 excluídos por pandemia
-- ⚠️ Lags precisam de entrada manual (sem API de dados históricos)
+-  Sem dados de clima (temperatura, chuva, neve)
+-  Sem modelagem de eventos especiais (campanhas, exposições)
+-  Anos 2020-2021 excluídos por pandemia
+-  Lags precisam de entrada manual (sem API de dados históricos)
 
 ---
 
