@@ -1,6 +1,6 @@
 #  Zoo Predictor — Korkeasaari · Sprint 4
 
-**Machine Learning · 1TIAPR-2025**  
+**Machine Learning · 1TIAPR-2026**  
 Grupo: Rafael Tavares (567357) · Gabriel Muniz (568237) · Yuri Quirino (568512) · Leonardo Barros (566788) · Marcelo Augusto (567176)
 
 ---
