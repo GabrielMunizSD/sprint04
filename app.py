@@ -490,7 +490,7 @@ def main():
     st.markdown("""
     <div class="main-header">
         <h1>🦁 Zoo Predictor — Korkeasaari</h1>
-        <p>Previsão de Visitantes com Explicabilidade SHAP | Sprint 4 · Machine Learning · 1TIAPR-2025</p>
+        <p>Previsão de Visitantes com Explicabilidade SHAP | Sprint 4 · Machine Learning · 1TIAPR-2026</p>
     </div>
     """, unsafe_allow_html=True)
 
