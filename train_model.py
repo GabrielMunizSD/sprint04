@@ -84,7 +84,7 @@ def main():
 
     if args.csv:
         df_raw = pd.read_csv(args.csv, parse_dates=["data"])
-        print(f"✅ CSV carregado: {len(df_raw)} linhas")
+        print(f"CSV carregado: {len(df_raw)} linhas")
     else:
         df_raw = gerar_dados_sinteticos()
         print(f"ℹ️  Usando dados sintéticos: {len(df_raw)} linhas")
@@ -97,7 +97,7 @@ def main():
     X_train, X_test = X.iloc[:split_idx], X.iloc[split_idx:]
     y_train, y_test = y.iloc[:split_idx], y.iloc[split_idx:]
 
-    print("⚙️  Treinando Gradient Boosting...")
+    print("  Treinando Gradient Boosting...")
     modelo = GradientBoostingRegressor(
         n_estimators=200, max_depth=5, learning_rate=0.1, random_state=SEED
     )
@@ -109,9 +109,9 @@ def main():
         "RMSE": round(np.sqrt(mean_squared_error(y_test, y_pred)), 1),
         "R2":   round(r2_score(y_test, y_pred), 4),
     }
-    print(f"📊 Métricas holdout → MAE: {metricas['MAE']} | RMSE: {metricas['RMSE']} | R²: {metricas['R2']}")
+    print(f" Métricas holdout → MAE: {metricas['MAE']} | RMSE: {metricas['RMSE']} | R²: {metricas['R2']}")
 
-    print("🔍 Calculando SHAP explainer...")
+    print(" Calculando SHAP explainer...")
     explainer = shap.TreeExplainer(modelo)
 
     bundle = {
@@ -125,8 +125,8 @@ def main():
     with open("modelo_zoo.pkl", "wb") as f:
         pickle.dump(bundle, f)
 
-    print("✅ Modelo salvo em modelo_zoo.pkl")
-    print("🚀 Execute: streamlit run app.py")
+    print(" Modelo salvo em modelo_zoo.pkl")
+    print(" Execute: streamlit run app.py")
 
 
 if __name__ == "__main__":
